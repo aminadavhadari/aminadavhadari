@@ -1,0 +1,26 @@
+
+.data1{
+  background-image: url('all.png');
+  background-size: 55% 60%;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  text-align: left;
+}
+.data1>ol>li{background: rgb(252, 252, 252, 0.4);}
+.underline{
+  font-size: 18px;
+}
+
+ @media only screen and (max-width: 768px) {
+.underline{font-size: 15px;}}
+ @media only screen and (max-width: 414px) {
+.underline{font-size: 9px;}}
+@media only screen and (max-width: 375px) {
+.data1>ol{
+  position: relative;
+  left: 0%;}
+.underline{font-size: 8.5px;}}
+@media only screen and (max-width: 360px) {
+.underline{font-size: 7.5px;}}
+@media only screen and (max-width: 320px) {
+.underline{font-size: 7px;}}

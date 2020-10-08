@@ -1,0 +1,39 @@
+.note {
+  font-size: 20px;
+}
+
+ @media only screen and (max-width: 1024px) {
+.note5{
+  font-size: 18px;
+}}
+@media only screen and (max-width: 414px) {
+.note{
+  font-size: 13.5px;
+}
+.note3, .note5{
+  font-size: 11.5px;
+}}
+  @media only screen and (max-width: 375px) {
+.note{
+  font-size: 12.5px;
+}
+.note3, .note5{
+  font-size: 10.5px;}
+}
+ @media only screen and (max-width: 360px) {
+.note{
+  font-size: 12px;
+}
+.note3, .note5{
+  font-size: 10px;
+}}
+   @media only screen and (max-width: 320px) {
+.note{
+  font-size: 11.5px;
+}
+.note3{
+  font-size: 10px;
+}
+.note5{
+  font-size: 10px;
+}
