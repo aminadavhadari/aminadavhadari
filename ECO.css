@@ -229,6 +229,7 @@ p>img{
 }
 .small{
   font-size: 10px;
+  font-weight: 600;
   }
 .item5 {
   position: relative;
@@ -291,6 +292,10 @@ html,body{
   height: 83%;}
 h5, .childzone2>ol, p, .small{
   font-size: 8px;}
+.small{
+  position: relative;
+  top: 0.6vh;
+  font-weight: 400;}
 p>img{
   width: 19px;
   height: 14px;
