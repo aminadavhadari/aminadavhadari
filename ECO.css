@@ -119,6 +119,7 @@ h5, .childzone2>ol, p {
   }
 .small{position: relative;
   top: 2vh;
+  color: black;
 }
 h5{font-weight: 100;
   position: absolute;
